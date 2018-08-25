@@ -6,7 +6,7 @@ It accesses data stored in `data.json` file which is then decoded by `php` to pr
 ## JSON structure
 ```json
 [{
-	"url": "If website has a link; ink for website",
+	"url": "If website has a link; link for website",
 	"image": "Location of screenshot of website",
 	"github": "If website has a github repo; link to the github repository",
 	"archive": "If website is archived; link to archive"
