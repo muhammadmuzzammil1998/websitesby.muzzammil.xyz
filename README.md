@@ -1,5 +1,5 @@
 
-# [websitesby.muzzammil.xyz](https://websitesby.muzzammil.xyz)
+# [websitesby.muzzammil.xyz](https://websitesby.muzzammil.xyz/?ref=github)
 A collection of some of the websites I made. :)
 ![image](https://user-images.githubusercontent.com/12321712/44597798-7c0bc000-a7ee-11e8-8d64-7b5bb9bd8f6f.png)
 It accesses data stored in `data.json` file which is then decoded by `php` to produce an output to show as a card on website. Nothing fancy.
@@ -34,8 +34,8 @@ Only requirements are `"image"` `key` and its `value` and atleast one of the oth
 #### Effect: Hovered (backdrop-filter)
 ![image](https://user-images.githubusercontent.com/12321712/44615198-b8bcd300-a851-11e8-9301-6342f4a01bb4.png)
 
-### Dummy card with all keys
-#### JSON object
+## Dummy card with all keys
+### JSON object
 ```json
 [{
 	"url": "//muzzammil.xyz",
@@ -44,7 +44,7 @@ Only requirements are `"image"` `key` and its `value` and atleast one of the oth
 	"archive": "//old.muzzammil.xyz"
 }]
 ```
-#### Generated HTML code (formatted)
+### Generated HTML code (formatted)
 ```html
 <div class="card">
 	<img src="./images/muzzammil.xyz.png">
