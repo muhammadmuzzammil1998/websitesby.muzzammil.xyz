@@ -1,0 +1,288 @@
+/*
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+hhhhhhh                               lllllll                                                                                           IIIIIIIIII                                            
+h:::::h                               l:::::l                                                                                           I::::::::I                                            
+h:::::h                               l:::::l                                                                                           I::::::::I                                            
+h:::::h                               l:::::l                                                                                           II::::::II                                            
+ h::::h hhhhh         aaaaaaaaaaaaa    l::::l     ccccccccccccccccyyyyyyy           yyyyyyy ooooooooooo   nnnn  nnnnnnnn                  I::::Innnn  nnnnnnnn        cccccccccccccccc        
+ h::::hh:::::hhh      a::::::::::::a   l::::l   cc:::::::::::::::c y:::::y         y:::::yoo:::::::::::oo n:::nn::::::::nn                I::::In:::nn::::::::nn    cc:::::::::::::::c        
+ h::::::::::::::hh    aaaaaaaaa:::::a  l::::l  c:::::::::::::::::c  y:::::y       y:::::yo:::::::::::::::on::::::::::::::nn               I::::In::::::::::::::nn  c:::::::::::::::::c        
+ h:::::::hhh::::::h            a::::a  l::::l c:::::::cccccc:::::c   y:::::y     y:::::y o:::::ooooo:::::onn:::::::::::::::n              I::::Inn:::::::::::::::nc:::::::cccccc:::::c        
+ h::::::h   h::::::h    aaaaaaa:::::a  l::::l c::::::c     ccccccc    y:::::y   y:::::y  o::::o     o::::o  n:::::nnnn:::::n              I::::I  n:::::nnnn:::::nc::::::c     ccccccc        
+ h:::::h     h:::::h  aa::::::::::::a  l::::l c:::::c                  y:::::y y:::::y   o::::o     o::::o  n::::n    n::::n              I::::I  n::::n    n::::nc:::::c                     
+ h:::::h     h:::::h a::::aaaa::::::a  l::::l c:::::c                   y:::::y:::::y    o::::o     o::::o  n::::n    n::::n              I::::I  n::::n    n::::nc:::::c                     
+ h:::::h     h:::::ha::::a    a:::::a  l::::l c::::::c     ccccccc       y:::::::::y     o::::o     o::::o  n::::n    n::::n              I::::I  n::::n    n::::nc::::::c     ccccccc        
+ h:::::h     h:::::ha::::a    a:::::a l::::::lc:::::::cccccc:::::c        y:::::::y      o:::::ooooo:::::o  n::::n    n::::n ,,,,,,     II::::::IIn::::n    n::::nc:::::::cccccc:::::c        
+ h:::::h     h:::::ha:::::aaaa::::::a l::::::l c:::::::::::::::::c         y:::::y       o:::::::::::::::o  n::::n    n::::n ,::::,     I::::::::In::::n    n::::n c:::::::::::::::::c ...... 
+ h:::::h     h:::::h a::::::::::aa:::al::::::l  cc:::::::::::::::c        y:::::y         oo:::::::::::oo   n::::n    n::::n ,::::,     I::::::::In::::n    n::::n  cc:::::::::::::::c .::::. 
+ hhhhhhh     hhhhhhh  aaaaaaaaaa  aaaallllllll    cccccccccccccccc       y:::::y            ooooooooooo     nnnnnn    nnnnnn ,:::,,     IIIIIIIIIInnnnnn    nnnnnn    cccccccccccccccc ...... 
+                                                                        y:::::y                                             ,:::,                                                             
+                                                                       y:::::y                                              ,,,,                                                              
+                                                                      y:::::y                                                                                                                 
+                                                                     y:::::y                                                                                                                  
+                                                                    yyyyyyy                                                                                                                   
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+*/
+@font-face {
+    font-family: RalewayBold;
+    src: url(Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: RalewayLight;
+    src: url(Raleway-ExtraLight.ttf);
+}
+* {
+    margin: 0;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: RalewayLight;
+}
+body {
+    background-color: #070707;
+}
+#can {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -42;
+}
+.title {
+    font-size: 800%;
+    padding-top: 10%;
+    display: none;
+    padding-left: 3%;
+    color: white;
+}
+.title #halcyon {
+    font-family: RalewayLight;
+}
+.title #halcyon::before {
+    content: "halcyon, ";
+}
+.title #inc {
+    font-family: RalewayBold;
+}
+.title #inc::after {
+    content: "INC.";
+}
+#tag {
+    font-family: RalewayLight;
+    padding-left: 3%;
+    color: white;
+    display: none;
+    font-size: 300%;
+}
+.nav {
+    text-align: right;
+    font-family: RalewayLight;
+    font-size: 400%;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 42;
+    color: white;
+    transition: all .5s;
+}
+.nav:hover {
+    opacity: 1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about,
+#team,
+#projects,
+#hire {
+    transition: all .5s;
+}
+#about:hover,
+#team:hover,
+#projects:hover,
+#hire:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 140%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #0f0f0f;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #313131;
+}
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #47484b;
+}
+::-moz-scrollbar {
+    width: 5px;
+    background-color: #0f0f0f;
+}
+::-moz-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #313131;
+}
+::-moz-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #47484b;
+}
+.about {
+    width: 80%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: white;
+    color: black;
+    padding-bottom: 2%;
+}
+h1 {
+    font-family: RalewayLight;
+    font-size: 500%;
+}
+p {
+    font-family: RalewayLight;
+    font-size: 300%;
+    font-weight: 600;
+}
+#space {
+    padding: 3%;
+}
+.team {
+    background-color: white;
+    width: 80%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: white;
+    color: black;
+    padding-bottom: 2%;
+}
+h2 {
+    font-family: RalewayLight;
+    font-size: 350%;
+}
+h4 {
+    font-family: RalewayLight;
+    font-size: 280%;
+    color: grey;
+}
+.founder p {
+    font-size: 236% !important;
+}
+.founder {
+    display: inline-grid;
+    width: 49%;
+}
+.button {
+    background-color: #4717F6;
+    color: white;
+    transition: all .5s;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 200%;
+    padding: 1%;
+    border: 0px solid transparent;
+}
+.button:hover {
+    box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 0.5);
+    border: 5px solid #4717F6;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.7);
+}
+#web {
+    width: 185px;
+}
+.card {
+    display: inline-grid;
+    color: white;
+    padding: 1%;
+    cursor: pointer;
+    transition: all .5s;
+    border: 5px solid transparent;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    font-size: 400%;
+}
+#spacer{
+	padding-top: 10%;
+}
+a {
+    text-decoration: none !important;
+}
+.card:hover {
+    text-shadow: none;
+    border: 5px solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.rand1 {
+    background-color: #5dd83f;
+}
+.rand2 {
+    background-color: #5dd88f;
+}
+.rand3 {
+    background-color: #5dd8d4;
+}
+.rand4 {
+    background-color: #5dd917;
+}
+.rand5 {
+    background-color: #5dd95a;
+}
+.work {
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    color: white;
+    padding-bottom: 2%;
+}
+.hire {
+    background-color: white;
+    width: 80%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: white;
+    color: black;
+    padding-bottom: 2%;
+}
+#i {
+    font-family: monospace;
+    border-radius: 50px;
+    border: 5px solid #c1c1c1;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 300%;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    right: 0;
+    margin-right: 1%;
+    bottom: 0;
+    margin-bottom: 1%;
+    transition: all .5s;
+    position: fixed;
+    color: grey;
+}
+#i::before {
+    content: 'i';
+}
+#i:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    opacity: 1;
+    width: 75%;
+}
+#i:hover::before {
+    content: "This website was archived on 29th of December, 2017, and may not work as intented. © Muhammad Muzzammil 2018";
+}
+@supports not (display: inline-grid){
+    .founder {
+        width: 100%;
+        margin: 5%;
+    }
+}
