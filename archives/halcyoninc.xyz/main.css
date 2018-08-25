@@ -25,14 +25,17 @@ h:::::h                               l:::::l                                   
                                                                                                                                                                                               
                                                                                                                                                                                               
 */
+
 @font-face {
     font-family: RalewayBold;
     src: url(Raleway-ExtraBold.ttf);
 }
+
 @font-face {
     font-family: RalewayLight;
     src: url(Raleway-ExtraLight.ttf);
 }
+
 * {
     margin: 0;
     text-rendering: optimizeLegibility !important;
@@ -40,15 +43,18 @@ h:::::h                               l:::::l                                   
     -moz-osx-font-smoothing: grayscale;
     font-family: RalewayLight;
 }
+
 body {
     background-color: #070707;
 }
+
 #can {
     height: 100%;
     width: 100%;
     position: fixed;
     z-index: -42;
 }
+
 .title {
     font-size: 800%;
     padding-top: 10%;
@@ -56,18 +62,23 @@ body {
     padding-left: 3%;
     color: white;
 }
+
 .title #halcyon {
     font-family: RalewayLight;
 }
+
 .title #halcyon::before {
     content: "halcyon, ";
 }
+
 .title #inc {
     font-family: RalewayBold;
 }
+
 .title #inc::after {
     content: "INC.";
 }
+
 #tag {
     font-family: RalewayLight;
     padding-left: 3%;
@@ -75,6 +86,7 @@ body {
     display: none;
     font-size: 300%;
 }
+
 .nav {
     text-align: right;
     font-family: RalewayLight;
@@ -88,16 +100,19 @@ body {
     color: white;
     transition: all .5s;
 }
+
 .nav:hover {
     opacity: 1;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #about,
 #team,
 #projects,
 #hire {
     transition: all .5s;
 }
+
 #about:hover,
 #team:hover,
 #projects:hover,
@@ -106,30 +121,37 @@ body {
     color: white;
     font-size: 140%;
 }
+
 ::-webkit-scrollbar {
     width: 5px;
     background-color: #0f0f0f;
 }
+
 ::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     background-color: #313131;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     background-color: #47484b;
 }
+
 ::-moz-scrollbar {
     width: 5px;
     background-color: #0f0f0f;
 }
+
 ::-moz-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     background-color: #313131;
 }
+
 ::-moz-scrollbar-thumb:hover {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     background-color: #47484b;
 }
+
 .about {
     width: 80%;
     padding-right: 10%;
@@ -139,18 +161,22 @@ body {
     color: black;
     padding-bottom: 2%;
 }
+
 h1 {
     font-family: RalewayLight;
     font-size: 500%;
 }
+
 p {
     font-family: RalewayLight;
     font-size: 300%;
     font-weight: 600;
 }
+
 #space {
     padding: 3%;
 }
+
 .team {
     background-color: white;
     width: 80%;
@@ -161,22 +187,27 @@ p {
     color: black;
     padding-bottom: 2%;
 }
+
 h2 {
     font-family: RalewayLight;
     font-size: 350%;
 }
+
 h4 {
     font-family: RalewayLight;
     font-size: 280%;
     color: grey;
 }
+
 .founder p {
     font-size: 236% !important;
 }
+
 .founder {
     display: inline-grid;
     width: 49%;
 }
+
 .button {
     background-color: #4717F6;
     color: white;
@@ -187,14 +218,17 @@ h4 {
     padding: 1%;
     border: 0px solid transparent;
 }
+
 .button:hover {
     box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 0.5);
     border: 5px solid #4717F6;
     text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.7);
 }
+
 #web {
     width: 185px;
 }
+
 .card {
     display: inline-grid;
     color: white;
@@ -206,32 +240,41 @@ h4 {
     margin: 10px;
     font-size: 400%;
 }
-#spacer{
-	padding-top: 10%;
+
+#spacer {
+    padding-top: 10%;
 }
+
 a {
     text-decoration: none !important;
 }
+
 .card:hover {
     text-shadow: none;
     border: 5px solid;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .rand1 {
     background-color: #5dd83f;
 }
+
 .rand2 {
     background-color: #5dd88f;
 }
+
 .rand3 {
     background-color: #5dd8d4;
 }
+
 .rand4 {
     background-color: #5dd917;
 }
+
 .rand5 {
     background-color: #5dd95a;
 }
+
 .work {
     padding-right: 10%;
     padding-top: 5%;
@@ -239,6 +282,7 @@ a {
     color: white;
     padding-bottom: 2%;
 }
+
 .hire {
     background-color: white;
     width: 80%;
@@ -249,6 +293,7 @@ a {
     color: black;
     padding-bottom: 2%;
 }
+
 #i {
     font-family: monospace;
     border-radius: 50px;
@@ -267,9 +312,11 @@ a {
     position: fixed;
     color: grey;
 }
+
 #i::before {
     content: 'i';
 }
+
 #i:hover {
     background-color: white;
     color: black;
@@ -277,10 +324,12 @@ a {
     opacity: 1;
     width: 75%;
 }
+
 #i:hover::before {
     content: "This website was archived on 29th of December, 2017, and may not work as intented. © Muhammad Muzzammil 2018";
 }
-@supports not (display: inline-grid){
+
+@supports not (display: inline-grid) {
     .founder {
         width: 100%;
         margin: 5%;
