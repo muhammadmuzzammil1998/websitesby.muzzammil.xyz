@@ -12,7 +12,7 @@ It accesses data stored in `data.json` file which is then decoded by `php` to pr
 	"archive": "If website is archived; link to archive"
 }]
 ```
-Only requirements are `"image"`, `"class"` and atleast one of the other `keys` and `values`.
+Only requirements are `"image"` `key` and its `value` and atleast one of the other `keys` and `values`.
 ### Example:
 ```json
 [{
