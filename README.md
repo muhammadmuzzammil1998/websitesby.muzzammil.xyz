@@ -30,6 +30,35 @@ Only requirements are `"image"` `key` and its `value` and atleast one of the oth
 #### Effect: Normal
 ![image](https://user-images.githubusercontent.com/12321712/44614916-9758e880-a84b-11e8-95bc-67288d5e189b.png)
 #### Effect: Hovered (normal)
-![image](https://user-images.githubusercontent.com/12321712/44614925-f0288100-a84b-11e8-8363-19638ee9d26a.png)
+![image](https://user-images.githubusercontent.com/12321712/44615190-7bf0dc00-a851-11e8-8987-773f24ce274f.png)
 #### Effect: Hovered (backdrop-filter)
-![image](https://user-images.githubusercontent.com/12321712/44614920-b6577a80-a84b-11e8-885a-9fbd2468b7a5.png)
+![image](https://user-images.githubusercontent.com/12321712/44615198-b8bcd300-a851-11e8-9301-6342f4a01bb4.png)
+
+### Dummy card with all keys
+#### JSON object
+```json
+[{
+	"url": "//muzzammil.xyz",
+	"image": "./images/muzzammil.xyz",
+	"github": "//github.com/muhammadmuzzammil1998/muzzammil.xyz",
+	"archive": "//old.muzzammil.xyz"
+}]
+```
+#### Generated HTML code (formatted)
+```html
+<div class="card">
+	<img src="./images/muzzammil.xyz.png">
+	<cover>
+		<a href="//github.com/muhammadmuzzammil1998/muzzammil.xyz" target="_blank">
+			<github></github>
+		</a>
+		<a href="//muzzammil.xyz" target="_blank">
+			<url></url>
+		</a>
+		<a href="//old.muzzammil.xyz" target="_blank">
+			<archive></archive>
+		</a>
+	</cover>
+</div>
+```
+![image](https://user-images.githubusercontent.com/12321712/44615162-629b6000-a850-11e8-870c-765eacdac2e5.png)
