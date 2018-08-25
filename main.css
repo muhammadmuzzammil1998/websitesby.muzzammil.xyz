@@ -146,7 +146,7 @@ cover {
 github,
 url,
 archive {
-    margin: 50px;
+    margin: 35px;
     font-family: FontAwesome;
     cursor: pointer;
     transition: font-size .5s;
