@@ -35,7 +35,7 @@ foreach ($websites as $website) { ?>
                 <div class="card <?php echo $website->class; ?>">
                     <img src="<?php echo $website->image . ".png"; ?>">
                     <cover><?php if(isset($website->github)) echo "<a href='" . $website->github . "' target='_blank'><github></github></a>";if(isset($website->url)) echo "<a href='" . $website->url . "' target='_blank'><url></url></a>"; if(isset($website->archive)) echo "<a href='" . $website->archive . "' target='_blank'><archive></archive></a>"?></cover>
-                    </div>
+                </div>
 <?php } ?> 
             </div>
             <div id="copy">&copy; Muhammad Muzzammil</div>
