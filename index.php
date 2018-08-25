@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A collection of some of the websites I made. :)" />
     <meta name="theme-color" content="#212121">
-    <link rel="stylesheet" type="text/css" href="main.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="main.css?<?php echo rand(); ?>" />
     <title>Websites by Muzzammil</title>
     <script>
         function ready() {
