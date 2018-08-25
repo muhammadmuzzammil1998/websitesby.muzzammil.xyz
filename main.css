@@ -130,6 +130,9 @@ cover {
 .card:hover cover {
     bottom: 0;
     opacity: 1;
+    background: rgba(255,255,255, 0.6);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 
 .card:hover img {
@@ -147,14 +150,7 @@ archive {
     font-family: FontAwesome;
     cursor: pointer;
     transition: font-size .5s;
-}
-
-.dark {
     color: black;
-}
-
-.light {
-    color: white;
 }
 
 github:hover,
