@@ -1,5 +1,5 @@
 
-# [websitesby.muzzammil.xyz](https://websitesby.muzzammil.xyz/?ref=github)
+# [websitesby.muzzammil.xyz](https://websitesby.muzzammil.xyz/?ref=github) [![GitHub license](https://img.shields.io/github/license/muhammadmuzzammil1998/websitesby.muzzammil.xyz.svg)](https://github.com/muhammadmuzzammil1998/websitesby.muzzammil.xyz/blob/master/LICENSE) [![CodeFactor](https://www.codefactor.io/repository/github/muhammadmuzzammil1998/websitesby.muzzammil.xyz/badge)](https://www.codefactor.io/repository/github/muhammadmuzzammil1998/websitesby.muzzammil.xyz) [![Twitter](https://img.shields.io/twitter/url/https/github.com/muhammadmuzzammil1998/websitesby.muzzammil.xyz.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fmuhammadmuzzammil1998%2Fwebsitesby.muzzammil.xyz) 
 A collection of some of the websites I made. :)
 ![image](https://user-images.githubusercontent.com/12321712/44597798-7c0bc000-a7ee-11e8-8d64-7b5bb9bd8f6f.png)
 It accesses data stored in `data.json` file which is then decoded by `php` to produce an output to show as a card on website. Nothing fancy.
