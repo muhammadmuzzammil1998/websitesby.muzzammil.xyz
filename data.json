@@ -1,57 +1,73 @@
-[{
-	"image": "./images/muzzammil.xyz",
-	"url": "//muzzammil.xyz"
-}, {
-	"image": "./images/reader",
-	"url": "//reader.muzzammil.xyz"
-}, {
-	"image": "./images/disguise",
-	"url": "//disguise.muzzammil.xyz"
-}, {
-	"image": "./images/binghomepageapi",
-	"url": "//git.muzzammil.xyz/bing",
-	"github": "//github.com/BingHomepage/BingHomepageWebsite"
-}, {
-	"image": "./images/octocss",
-	"url": "//git.muzzammil.xyz/OctoCSS",
-	"github": "//github.com/muhammadmuzzammil1998/OctoCSS/tree/master/website"
-}, {
-	"image": "./images/randomtheme",
-	"url": "//git.muzzammil.xyz/randomTheme",
-	"github": "//github.com/muhammadmuzzammil1998/RandomTheme/tree/master/website"
-}, {
-	"image": "./images/bitcoinbot",
-	"url": "//muhammadmuzzammil1998.github.io/BitcoinBot",
-	"github": "//github.com/muhammadmuzzammil1998/BitcoinBot/tree/gh-pages"
-}, {
-	"image": "./images/smarttext",
-	"url": "//git.muzzammil.xyz/smarttext",
-	"github": "//github.com/muhammadmuzzammil1998/smarttext"
-}, {
-	"image": "./images/jaai",
-	"url": "//git.muzzammil.xyz/JAAI",
-	"github": "//github.com/muhammadmuzzammil1998/JustAnAwesomeInc-Template"
-}, {
-	"image": "./images/johndoe",
-	"url": "//git.muzzammil.xyz/personal-website",
-	"github": "//github.com/muhammadmuzzammil1998/personal-website"
-}, {
-	"image": "./images/halcyoninc.xyz",
-	"url": "//halcyoninc.xyz",
-	"archive": "./archives/halcyoninc.xyz",
-	"github": "//github.com/muhammadmuzzammil1998/websitesby.muzzammil.xyz/tree/master/archives/halcyoninc.xyz"
-}, {
-	"image": "./images/unixtimestamp",
-	"url": "//git.muzzammil.xyz/unixtimestamp",
-	"github": "//github.com/muhammadmuzzammil1998/unixtimestamp"
-}, {
-	"image": "./images/old.muzzammil.xyz",
-	"url": "//old.muzzammil.xyz"
-}, {
-	"image": "./images/kgntelecom.in",
-	"url": "//kgntelecom.in"
-}, {
-	"image": "./images/swsh.muzzammil.xyz",
-	"url": "//swsh.muzzammil.xyz",
-	"github": "//github.com/SecureWindowsShell/swsh.muzzammil.xyz"
-}]
+[
+  {
+    "image": "./images/muzzammil.xyz",
+    "url": "//muzzammil.xyz"
+  },
+  {
+    "image": "./images/reader",
+    "url": "//reader.muzzammil.xyz"
+  },
+  {
+    "image": "./images/disguise",
+    "url": "//disguise.muzzammil.xyz"
+  },
+  {
+    "image": "./images/binghomepageapi",
+    "url": "//git.muzzammil.xyz/bing",
+    "github": "//github.com/BingHomepage/BingHomepageWebsite"
+  },
+  {
+    "image": "./images/octocss",
+    "url": "//git.muzzammil.xyz/OctoCSS",
+    "github": "//github.com/muhammadmuzzammil1998/OctoCSS/tree/master/website"
+  },
+  {
+    "image": "./images/randomtheme",
+    "url": "//git.muzzammil.xyz/randomTheme",
+    "github": "//github.com/muhammadmuzzammil1998/RandomTheme/tree/master/website"
+  },
+  {
+    "image": "./images/bitcoinbot",
+    "url": "//muhammadmuzzammil1998.github.io/BitcoinBot",
+    "github": "//github.com/muhammadmuzzammil1998/BitcoinBot/tree/gh-pages"
+  },
+  {
+    "image": "./images/smarttext",
+    "url": "//git.muzzammil.xyz/smarttext",
+    "github": "//github.com/muhammadmuzzammil1998/smarttext"
+  },
+  {
+    "image": "./images/jaai",
+    "url": "//git.muzzammil.xyz/JAAI",
+    "github": "//github.com/muhammadmuzzammil1998/JustAnAwesomeInc-Template"
+  },
+  {
+    "image": "./images/johndoe",
+    "url": "//git.muzzammil.xyz/personal-website",
+    "github": "//github.com/muhammadmuzzammil1998/personal-website"
+  },
+  {
+    "image": "./images/halcyoninc.xyz",
+    "url": "//halcyoninc.xyz",
+    "archive": "./archives/halcyoninc.xyz",
+    "github": "//github.com/muhammadmuzzammil1998/websitesby.muzzammil.xyz/tree/master/archives/halcyoninc.xyz"
+  },
+  {
+    "image": "./images/unixtimestamp",
+    "url": "//git.muzzammil.xyz/unixtimestamp",
+    "github": "//github.com/muhammadmuzzammil1998/unixtimestamp"
+  },
+  {
+    "image": "./images/old.muzzammil.xyz",
+    "url": "//old.muzzammil.xyz"
+  },
+  {
+    "image": "./images/kgntelecom.in",
+    "url": "//kgntelecom.in"
+  },
+  {
+    "image": "./images/swsh.muzzammil.xyz",
+    "url": "//swsh.muzzammil.xyz",
+    "github": "//github.com/SecureWindowsShell/swsh.muzzammil.xyz"
+  }
+]
