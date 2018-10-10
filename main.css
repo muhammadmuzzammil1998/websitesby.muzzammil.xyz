@@ -202,13 +202,13 @@ a {
     height: 95%;
     width: 96%;
     margin: .5px;
-    border: 0.5px solid black;
-    box-shadow: inset 0px 0px 6px 0px #5d5d5d;
+    border: 0.5px solid #0b98fc;
+    box-shadow: 0 0 5px #fff, inset 0 0 20px #0b98fc, inset 0 0 30px #0b98fc, inset 0 0 40px #0b98fc;
 }
 
 #button {
     position: relative;
-    background: black;
+    background: white;
     height: 20px;
     width: 20px;
     margin: 2px;
