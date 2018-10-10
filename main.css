@@ -239,7 +239,8 @@ a {
     }
 
     #cont-wrapper {
-        top: 250px;
+        top: 1px;
+        right: 1px;
     }
 }
 
@@ -252,9 +253,5 @@ a {
     #head,
     #copy {
         font-size: 200%;
-    }
-
-    #cont-wrapper {
-        top: 160px;
     }
 }
