@@ -76,6 +76,7 @@ body {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -175,10 +176,76 @@ a {
     color: inherit;
 }
 
+#switch-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    right: 30px;
+    top: 25px;
+    cursor: pointer;
+}
+
+#cont-wrapper::before {
+    content: "Show contributed";
+    text-shadow: 1px 1px 4px white, -1px -1px 4px white;
+}
+
+#cont-wrapper {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    transition: all .5s;
+}
+
+#switch {
+    position: relative;
+    background: white;
+    border-radius: 100px;
+    height: 95%;
+    width: 96%;
+    margin: .5px;
+    border: 0.5px solid #0b98fc;
+    box-shadow: 0 0 5px #fff, inset 0 0 20px #0b98fc, inset 0 0 30px #0b98fc, inset 0 0 40px #0b98fc;
+}
+
+#button {
+    position: relative;
+    background: white;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+.hidden {
+    display: none;
+    overflow: hidden;
+}
+
+.hidden::before {
+    content: ' ';
+    position: absolute;
+    border: 50px solid white;
+    height: 0;
+    width: 0;
+    left: -50px;
+    top: -50px;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 20px #b9b9b9;
+}
+
+.hidden-star {
+    position: absolute;
+    font-size: 200%;
+    left: 8px;
+}
+
 @media only screen and (max-width: 1440px) {
     #deck {
         grid-template-columns: auto auto auto;
     }
+
     #head,
     #copy {
         font-size: 300%;
@@ -189,6 +256,16 @@ a {
     #deck {
         grid-template-columns: auto auto;
     }
+
+    #cont-wrapper {
+        top: 1px;
+        right: 60px;
+    }
+
+    #switch-wrapper {
+        right: -55px;
+        top: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -196,6 +273,7 @@ a {
         grid-template-columns: auto;
         grid-gap: 5px;
     }
+
     #head,
     #copy {
         font-size: 200%;
