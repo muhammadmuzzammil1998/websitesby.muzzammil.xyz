@@ -1,7 +1,4 @@
 $(document).ready(function () {
-    $("#lContainer").css({
-        display: "none"
-    })
     var hidden = true;
     $("#switch").click(function () {
         $(".hidden").fadeToggle("slow")
@@ -11,5 +8,10 @@ $(document).ready(function () {
             })
         else $("#button").removeAttr('style');
         hidden = !hidden
+    })
+})
+$("body").ready(function () {
+    $("#lContainer").css({
+        display: "none"
     })
 })
