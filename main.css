@@ -187,6 +187,7 @@ a {
 
 #cont-wrapper::before {
     content: "Show contributed";
+    text-shadow: 1px 1px 4px white, -1px -1px 4px white;
 }
 
 #cont-wrapper {
