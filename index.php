@@ -30,7 +30,8 @@
 <?php
 $websites = json_decode(file_get_contents("data.json"));
 foreach ($websites as $website) { ?>
-                <div class="card">
+                <div class="card<?php if (isset($website->class)) echo " " . $website->class;?>">
+<?php if (isset($website->class)) echo '<div class="hidden-star">&#9733;</div>' . "\n" ?>
                     <img src="<?php echo $website->image . ".png"; ?>">
                     <cover><?php if(isset($website->github)) echo "<a href='" . $website->github . "' target='_blank'><github></github></a>";if(isset($website->url)) echo "<a href='" . $website->url . "' target='_blank'><url></url></a>"; if(isset($website->archive)) echo "<a href='" . $website->archive . "' target='_blank'><archive></archive></a>"?></cover>
                 </div>

@@ -220,6 +220,25 @@ a {
 
 .hidden {
     display: none;
+    overflow: hidden;
+}
+
+.hidden::before {
+    content: ' ';
+    position: absolute;
+    border: 50px solid white;
+    height: 0;
+    width: 0;
+    left: -50px;
+    top: -50px;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 20px #b9b9b9;
+}
+
+.hidden-star {
+    position: absolute;
+    font-size: 200%;
+    left: 8px;
 }
 
 @media only screen and (max-width: 1440px) {
