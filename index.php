@@ -18,7 +18,7 @@
     <script src="main.js?<?php echo rand(); ?>"></script>
 </head>
 
-<body>
+<body onload="ready()">
 <div id="cont-wrapper"><div id="switch-wrapper"><div id="switch"><div id="button"></div></div></div></div>
     <div id="lContainer">
         <div id="loader"></div>
