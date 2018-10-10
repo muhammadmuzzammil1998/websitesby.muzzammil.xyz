@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="main.css?<?php echo rand(); ?>" />
     <title>Websites by Muzzammil</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js<?php echo rand(); ?>"></script>
+    <script src="main.js?<?php echo rand(); ?>"></script>
 </head>
 
 <body>
