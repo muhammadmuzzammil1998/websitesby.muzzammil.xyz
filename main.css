@@ -194,6 +194,7 @@ a {
     position: absolute;
     right: 30px;
     top: 25px;
+    transition: all .5s;
 }
 
 #switch {
@@ -236,6 +237,10 @@ a {
     #deck {
         grid-template-columns: auto auto;
     }
+
+    #cont-wrapper {
+        top: 30%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -247,5 +252,9 @@ a {
     #head,
     #copy {
         font-size: 200%;
+    }
+
+    #cont-wrapper {
+        top: 20%;
     }
 }
