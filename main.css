@@ -240,11 +240,11 @@ a {
 
     #cont-wrapper {
         top: 1px;
-        right: 10px;
+        right: 60px;
     }
 
     #switch-wrapper {
-        left: -55px;
+        right: -55px;
         top: 0;
     }
 }
