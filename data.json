@@ -2,9 +2,24 @@
 	"image": "./images/muzzammil.xyz",
 	"url": "//muzzammil.xyz"
 }, {
+	"image": "./images/dogeon.xyz",
+	"url": "//dogeon.xyz",
+	"github": "//github.com/muhammadmuzzammil1998?from=2018-10-01&to=2018-10-10&org=dogescript",
+	"class": "hidden"
+}, {
+	"image": "./images/whitespace.red",
+	"url": "//whitespace.red",
+	"github": "//github.com/muhammadmuzzammil1998?from=2018-10-01&to=2018-10-10&org=WhitespaceRed",
+	"class": "hidden"
+}, {
 	"image": "./images/websitesby.muzzammil",
 	"url": "//websitesby.muzzammil.xyz",
 	"github": "//github.com/muhammadmuzzammil1998/websitesby.muzzammil.xyz"
+}, {
+	"image": "./images/webassembly.org",
+	"url": "//webassembly.org",
+	"github": "//github.com/muhammadmuzzammil1998?from=2018-10-01&to=2018-10-10&org=WebAssembly&year_list=1",
+	"class": "hidden"
 }, {
 	"image": "./images/kgntelecom.in",
 	"url": "//kgntelecom.in"
