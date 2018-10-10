@@ -9,7 +9,8 @@ It accesses data stored in `data.json` file which is then decoded by `php` to pr
 	"url": "If website has a link; link for website",
 	"image": "Location of screenshot of website",
 	"github": "If website has a github repo; link to the github repository",
-	"archive": "If website is archived; link to archive"
+	"archive": "If website is archived; link to archive",
+	"class": "If extra styling is needed"
 }]
 ```
 Only requirements are `"image"` `key` and its `value` and atleast one of the other `keys` and `values`.
@@ -41,12 +42,13 @@ Only requirements are `"image"` `key` and its `value` and atleast one of the oth
 	"url": "//muzzammil.xyz",
 	"image": "./images/muzzammil.xyz",
 	"github": "//github.com/muhammadmuzzammil1998/muzzammil.xyz",
-	"archive": "//old.muzzammil.xyz"
+	"archive": "//old.muzzammil.xyz",
+	"class": "extra-class-for-card"
 }]
 ```
 ### Generated HTML code (formatted)
 ```html
-<div class="card">
+<div class="card extra-class-for-card">
 	<img src="./images/muzzammil.xyz.png">
 	<cover>
 		<a href="//github.com/muhammadmuzzammil1998/muzzammil.xyz" target="_blank">
