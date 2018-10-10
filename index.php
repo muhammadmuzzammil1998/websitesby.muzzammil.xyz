@@ -14,14 +14,9 @@
     <meta name="theme-color" content="#212121">
     <link rel="stylesheet" type="text/css" href="main.css?<?php echo rand(); ?>" />
     <title>Websites by Muzzammil</title>
-    <script>
-        function ready() {
-            document.getElementById("lContainer").style.display = "none";
-        }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body onload="ready()">
 <body>
 <div id="cont-wrapper"><div id="switch-wrapper"><div id="switch"><div id="button"></div></div></div></div>
     <div id="lContainer">
