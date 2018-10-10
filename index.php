@@ -16,6 +16,13 @@
     <title>Websites by Muzzammil</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js?<?php echo rand(); ?>"></script>
+    <script>
+        function ready() {
+            document.getElementById("lContainer").style.display = "none";
+        }
+    </script>
+    <!-- TO BE REMOVED -->
+    <?php echo "<script>"; include("main.js"); echo "</script>"; echo "<style>"; include("main.css"); echo "</style>"; ?>
 </head>
 
 <body onload="ready()">

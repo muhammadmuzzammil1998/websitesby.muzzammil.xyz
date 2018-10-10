@@ -10,9 +10,3 @@ $(document).ready(function () {
         hidden = !hidden
     })
 })
-
-function ready() {
-    $("#lContainer").css({
-        display: "none"
-    })
-}
