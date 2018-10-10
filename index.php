@@ -21,8 +21,6 @@
             document.getElementById("lContainer").style.display = "none";
         }
     </script>
-    <!-- TO BE REMOVED -->
-    <?php echo "<script>"; include("main.js"); echo "</script>"; echo "<style>"; include("main.css"); echo "</style>"; ?>
 </head>
 
 <body onload="ready()">
