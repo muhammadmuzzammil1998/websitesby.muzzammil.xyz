@@ -2,6 +2,10 @@
 	"image": "./images/muzzammil.xyz",
 	"url": "//muzzammil.xyz"
 }, {
+	"image": "./images/icidssd.muzzammil.xyz",
+	"archive": "//icidssd.muzzammil.xyz/",
+	"url": "http://www.jamiahamdard.ac.in/icidssd/"
+}, {
 	"image": "./images/pagehash.muzzammil.xyz",
 	"url": "//pagehash.muzzammil.xyz",
 	"github": "//github.com/muhammadmuzzammil1998/Page-Hash"
